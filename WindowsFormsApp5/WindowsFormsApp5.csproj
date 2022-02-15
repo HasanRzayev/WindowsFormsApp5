@@ -58,7 +58,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -88,6 +88,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\rec %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\185045_pen_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Без названия.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Без названия %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-5404125_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
