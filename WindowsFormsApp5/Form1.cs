@@ -144,19 +144,9 @@ namespace WindowsFormsApp5
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            if (button1.BackColor == Color.Red)
-            {
-
-                button1.BackColor = Color.White;
-                comboBox2.Enabled = false;
-                comboBox3.Enabled = false;
-
-
-            }
-            else
-            {
-                button1.BackColor = Color.Red;
-            }
+           
+            button1.BackColor = Color.Red;
+            
            
             comboBox2.Enabled = false;
             comboBox3.Enabled = false;
@@ -176,25 +166,7 @@ namespace WindowsFormsApp5
         }
         private void button18_Click(object sender, EventArgs e)
         {
-            if (button18.BackColor == Color.Yellow)
-            {
-                button18.BackColor = Color.White;
-   
-                button28.BackColor = Color.White;
-                button29.BackColor = Color.White;
-                button30.BackColor = Color.White;
-                button31.BackColor = Color.White;
-                comboBox2.Enabled = false;
-                comboBox3.Enabled = false;
-                button28.Enabled =  false;
-                button29.Enabled =  false;
-                button30.Enabled =  false;
-                button31.Enabled =  false;
-
-
-            }
-            else
-            {
+            
 
                 button18.BackColor = Color.Yellow;
                 comboBox2.Enabled = true;
@@ -204,7 +176,7 @@ namespace WindowsFormsApp5
                 button30.Enabled = true;
                 button31.Enabled = true;
 
-            }
+            
 
 
 
@@ -226,23 +198,7 @@ namespace WindowsFormsApp5
 
         private void button27_Click(object sender, EventArgs e)
         {
-            if (button_yasil1.BackColor==Color.Green)
-            {
-                button_yasil1.BackColor = Color.White;
-                comboBox2.Enabled =false ;
-                comboBox3.Enabled =false ;
-                button28.Enabled = false ;
-                button29.Enabled = false ;
-                button30.Enabled = false ;
-                button31.Enabled = false ;
-                button28.BackColor = Color.White;
-                button29.BackColor = Color.White;
-                button30.BackColor = Color.White;
-                button31.BackColor = Color.White;
-                
-            }
-            else
-            {
+           
                 button_yasil1.BackColor = Color.Green;
                 comboBox2.Enabled = true;
                 comboBox3.Enabled = true;
@@ -250,7 +206,7 @@ namespace WindowsFormsApp5
                 button29.Enabled = true;
                 button30.Enabled = true;
                 button31.Enabled = true;
-            }
+            
 
 
 
@@ -273,23 +229,7 @@ namespace WindowsFormsApp5
 
         private void button21_Click(object sender, EventArgs e)
         {
-            if (button_yasil2.BackColor == Color.Green)
-            {
-                button_yasil2.BackColor = Color.White;
-       
-                button33.BackColor = Color.White;
-                button34.BackColor = Color.White;
-                button35.BackColor = Color.White;
-                button32.BackColor = Color.White;
-                comboBox5.Enabled = false;
-                comboBox4.Enabled = false;
-                button33.Enabled =  false;
-                button34.Enabled =  false;
-                button35.Enabled =  false;
-                button32.Enabled =  false;
-            }
-            else
-            {
+           
                 button_yasil2.BackColor = Color.Green;
                 comboBox5.Enabled = true;
                 comboBox4.Enabled = true;
@@ -297,7 +237,7 @@ namespace WindowsFormsApp5
                 button34.Enabled = true;
                 button35.Enabled = true;
                 button32.Enabled = true;
-            }
+            
            
       
 
@@ -308,23 +248,7 @@ namespace WindowsFormsApp5
 
         private void button12_Click(object sender, EventArgs e)
         {
-            if (button12.BackColor == Color.Yellow)
-            {
-                button12.BackColor = Color.White;
-               
-                button33.BackColor = Color.White;
-                button34.BackColor = Color.White;
-                button35.BackColor = Color.White;
-                button32.BackColor = Color.White;
-                comboBox5.Enabled = false;
-                comboBox4.Enabled = false;
-                button33.Enabled =  false;
-                button34.Enabled =  false;
-                button35.Enabled =  false;
-                button32.Enabled =  false;
-            }
-            else
-            {
+           
                 button12.BackColor = Color.Yellow;
                 comboBox5.Enabled = true;
                 comboBox4.Enabled = true;
@@ -332,7 +256,7 @@ namespace WindowsFormsApp5
                 button34.Enabled = true;
                 button35.Enabled = true;
                 button32.Enabled = true;
-            }
+            
           
  
 
@@ -344,15 +268,10 @@ namespace WindowsFormsApp5
 
         private void button7_Click(object sender, EventArgs e)
         {
-            if (button7.BackColor == Color.Red)
-            {
-                button7.BackColor = Color.White;
-             
-            }
-            else
-            {
+           
+            
                 button7.BackColor = Color.Red;
-            }
+            
  
             comboBox4.Enabled = false;
             comboBox5.Enabled = false;
@@ -510,24 +429,7 @@ namespace WindowsFormsApp5
 
         private void button22_Click(object sender, EventArgs e)
         {
-            if (button_yasil3.BackColor == Color.Green)
-            {
-                button_yasil3.BackColor = Color.White;
-                comboBox7.Enabled = false;
-                comboBox6.Enabled = false;
-
-                button37.BackColor = Color.White;
-                button38.BackColor = Color.White;
-                button39.BackColor = Color.White;
-                button36.BackColor = Color.White;
-                button37.Enabled = false;
-                button38.Enabled = false;
-                button39.Enabled = false;
-                button36.Enabled = false;
-
-            }
-            else
-            {
+            
                 button_yasil3.BackColor = Color.Green;
                 comboBox7.Enabled = true;
                 comboBox6.Enabled = true;
@@ -536,7 +438,7 @@ namespace WindowsFormsApp5
                 button39.Enabled = true;
                 button36.Enabled = true;
 
-            }
+            
 
 
 
@@ -546,22 +448,7 @@ namespace WindowsFormsApp5
 
         private void button13_Click(object sender, EventArgs e)
         {
-            if (button13.BackColor == Color.Yellow)
-            {
-                button13.BackColor = Color.White;
-                comboBox7.Enabled = false;
-                comboBox6.Enabled = false;
-                button37.BackColor = Color.White;
-                button38.BackColor = Color.White;
-                button39.BackColor = Color.White;
-                button36.BackColor = Color.White;
-                button37.Enabled = false;
-                button38.Enabled = false;
-                button39.Enabled = false;
-                button36.Enabled = false;
-            }
-            else
-            {
+           
                 button13.BackColor = Color.Yellow;
                 comboBox7.Enabled = true;
                 comboBox6.Enabled = true;
@@ -569,7 +456,7 @@ namespace WindowsFormsApp5
                 button38.Enabled = true;
                 button39.Enabled = true;
                 button36.Enabled = true;
-            }
+            
 
             
 
@@ -581,17 +468,9 @@ namespace WindowsFormsApp5
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (button6.BackColor == Color.Red)
-            {
-                button6.BackColor = Color.White;
-                comboBox7.Enabled = false;
-                comboBox6.Enabled = false;
-
-            }
-            else
-            {
+           
                 button6.BackColor = Color.Red;
-            }
+            
 
             comboBox7.Enabled = false;
             comboBox6.Enabled = false;
@@ -619,23 +498,7 @@ namespace WindowsFormsApp5
         private void button_yasil4_Click(object sender, EventArgs e)
         {
 
-            if (button_yasil4.BackColor == Color.Green)
-            {
-                button_yasil4.BackColor = Color.White;
-                comboBox9.Enabled = false;
-                comboBox8.Enabled = false;
-
-                button40.BackColor = Color.White;
-                button41.BackColor = Color.White;
-                button42.BackColor = Color.White;
-                button43.BackColor = Color.White;
-                button40.Enabled = false;
-                button41.Enabled = false;
-                button42.Enabled = false;
-                button43.Enabled = false;
-            }
-            else
-            {
+            
                 button_yasil4.BackColor = Color.Green;
                 comboBox9.Enabled = true;
                 comboBox8.Enabled = true;
@@ -643,7 +506,7 @@ namespace WindowsFormsApp5
                 button41.Enabled = true;
                 button42.Enabled = true;
                 button43.Enabled = true;
-            }
+            
 
            
 
@@ -654,22 +517,7 @@ namespace WindowsFormsApp5
 
         private void button14_Click(object sender, EventArgs e)
         {
-            if (button14.BackColor == Color.Yellow)
-            {
-                button14.BackColor = Color.White;
-                comboBox9.Enabled = false;
-                comboBox8.Enabled = false;
-                button40.BackColor = Color.White;
-                button41.BackColor = Color.White;
-                button42.BackColor = Color.White;
-                button43.BackColor = Color.White;
-                button40.Enabled = false;
-                button41.Enabled = false;
-                button42.Enabled = false;
-                button43.Enabled = false;
-            }
-            else
-            {
+            
                 button14.BackColor = Color.Yellow;
                 comboBox9.Enabled = true;
                 comboBox8.Enabled = true;
@@ -678,7 +526,7 @@ namespace WindowsFormsApp5
                 button42.Enabled = true;
                 button43.Enabled = true;
 
-            }
+            
 
 
 
@@ -689,17 +537,9 @@ namespace WindowsFormsApp5
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (button5.BackColor == Color.Red)
-            {
-                button5.BackColor = Color.White;
-                comboBox9.Enabled = false;
-                comboBox8.Enabled = false;
-
-            }
-            else
-            {
+           
                 button5.BackColor = Color.Red;
-            }
+            
 
             comboBox9.Enabled = false;
             comboBox8.Enabled = false;
@@ -855,24 +695,7 @@ namespace WindowsFormsApp5
 
         private void button_yasil5_Click(object sender, EventArgs e)
         {
-            if (button_yasil5.BackColor == Color.Green)
-            {
-                button_yasil5.BackColor = Color.White;
-                comboBox11.Enabled = false;
-                comboBox10.Enabled = false;
-
-                button44.BackColor = Color.White;
-                button45.BackColor = Color.White;
-                button46.BackColor = Color.White;
-                button47.BackColor = Color.White;
-                button44.Enabled = false;
-                button45.Enabled = false;
-                button46.Enabled = false;
-                button47.Enabled = false;
-
-            }
-            else
-            {
+            
                 button_yasil5.BackColor = Color.Green;
                 comboBox11.Enabled = true;
                 comboBox10.Enabled = true;
@@ -880,7 +703,7 @@ namespace WindowsFormsApp5
                 button45.Enabled = true;
                 button46.Enabled = true;
                 button47.Enabled = true;
-            }
+            
 
             
 
@@ -891,22 +714,7 @@ namespace WindowsFormsApp5
 
         private void button15_Click(object sender, EventArgs e)
         {
-            if (button15.BackColor == Color.Yellow)
-            {
-                button15.BackColor = Color.White;
-                comboBox10.Enabled = false;
-                comboBox11.Enabled = false;
-                button44.BackColor = Color.White;
-                button45.BackColor = Color.White;
-                button46.BackColor = Color.White;
-                button47.BackColor = Color.White;
-                button44.Enabled =false;
-                button45.Enabled =false;
-                button46.Enabled =false;
-                button47.Enabled =false;
-            }
-            else
-            {
+           
                 button15.BackColor = Color.Yellow;
                 comboBox10.Enabled = true;
                 comboBox11.Enabled = true;
@@ -915,7 +723,7 @@ namespace WindowsFormsApp5
                 button46.Enabled = true;
                 button47.Enabled = true;
 
-            }
+            
 
 
 
@@ -926,17 +734,9 @@ namespace WindowsFormsApp5
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (button4.BackColor == Color.Red)
-            {
-                button4.BackColor = Color.White;
-                comboBox10.Enabled = false;
-                comboBox11.Enabled = false;
-
-            }
-            else
-            {
+            
                 button4.BackColor = Color.Red;
-            }
+            
 
             comboBox10.Enabled = false;
             comboBox11.Enabled = false;
