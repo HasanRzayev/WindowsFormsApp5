@@ -24,7 +24,7 @@ namespace WindowsFormsApp5
             {
           
                 button_imtina.Visible = false;
-                button_karandas.BackgroundImage = Image.FromFile(@"C:\Users\User\Source\Repos\WindowsFormsApp5\WindowsFormsApp5\Resources\185045_pen_icon.png");
+                button_karandas.BackgroundImage = Image.FromFile(@"C:\Users\Rzay_ri48\source\repos\WindowsFormsApp5\WindowsFormsApp5\Resources\185045_pen_icon.png");
                 button_karandas.Text = null;
                 return;
             }
@@ -46,7 +46,8 @@ namespace WindowsFormsApp5
         {
 
             textBox2.Text = evvelki;
-            button_karandas.BackgroundImage = Image.FromFile(@"C:\Users\User\Source\Repos\WindowsFormsApp5\WindowsFormsApp5\Resources\185045_pen_icon.png");
+            button_karandas.Text = null;
+            button_karandas.BackgroundImage = Image.FromFile(@"C:\Users\Rzay_ri48\source\repos\WindowsFormsApp5\WindowsFormsApp5\Resources\185045_pen_icon.png");
             button_imtina.Visible = false;
 
         }
